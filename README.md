@@ -203,7 +203,7 @@ Before operational use, the system would require newer validation data, drift mo
 ## Project Structure
 
 ```text
-bank-marketing-ml/
+bank-marketing-subscription-prediction/
 │
 ├── data/
 │   ├── bank-additional-full.csv
@@ -238,7 +238,7 @@ bank-marketing-ml/
 Clone the repository and move into the project directory:
 
 ```bash
-git clone https://github.com/NourhanFarag bank-marketing-subscription-prediction.git
+git clone https://github.com/NourhanFarag/bank-marketing-subscription-prediction.git
 cd bank-marketing-subscription-prediction
 ```
 
