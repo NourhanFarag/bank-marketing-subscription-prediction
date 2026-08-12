@@ -24,17 +24,39 @@
         "euribor3m",
         "nr.employed"
     ],
+    "numerical_features": [
+        "age",
+        "campaign",
+        "previous",
+        "emp.var.rate",
+        "cons.price.idx",
+        "cons.conf.idx",
+        "euribor3m",
+        "nr.employed"
+    ],
+    "categorical_features": [
+        "job",
+        "marital",
+        "education",
+        "default",
+        "housing",
+        "loan",
+        "contact",
+        "month",
+        "day_of_week",
+        "poutcome",
+        "pdays"
+    ],
     "excluded_leakage_features": [
         "duration"
     ],
-    "hyperparameters": {
+    "prediction_timing": "Immediately before a specific marketing contact",
+    "primary_metric": "Average Precision",
+    "development_cv_mean_average_precision": 0.08602735493685405,
+    "best_parameters": {
         "C": 10.0,
         "class_weight": null
     },
-    "primary_metric": "Average Precision",
-    "development_cv_mean_average_precision": 0.08602735493685405,
-    "final_test_average_precision": 0.5298699330515781,
-    "final_test_roc_auc": 0.7406687109443014,
     "custom_decision_threshold_selected": false,
     "reference_threshold": 0.5
 }
