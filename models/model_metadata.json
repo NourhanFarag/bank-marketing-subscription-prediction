@@ -1,0 +1,40 @@
+{
+    "model_type": "LogisticRegression",
+    "target": "y",
+    "positive_class": 1,
+    "input_feature_count": 19,
+    "input_features": [
+        "age",
+        "job",
+        "marital",
+        "education",
+        "default",
+        "housing",
+        "loan",
+        "contact",
+        "month",
+        "day_of_week",
+        "campaign",
+        "pdays",
+        "previous",
+        "poutcome",
+        "emp.var.rate",
+        "cons.price.idx",
+        "cons.conf.idx",
+        "euribor3m",
+        "nr.employed"
+    ],
+    "excluded_leakage_features": [
+        "duration"
+    ],
+    "hyperparameters": {
+        "C": 10.0,
+        "class_weight": null
+    },
+    "primary_metric": "Average Precision",
+    "development_cv_mean_average_precision": 0.08602735493685405,
+    "final_test_average_precision": 0.5298699330515781,
+    "final_test_roc_auc": 0.7406687109443014,
+    "custom_decision_threshold_selected": false,
+    "reference_threshold": 0.5
+}
