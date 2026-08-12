@@ -1,0 +1,19 @@
+{
+    "test_positive_rate": 0.3083272638990046,
+    "average_precision": 0.5298699330515781,
+    "no_skill_ap_baseline": 0.3083272638990046,
+    "ap_gain_over_baseline": 0.22154266915257353,
+    "ap_lift_over_baseline": 1.718530908849961,
+    "roc_auc": 0.7406687109443014,
+    "reference_threshold": 0.5,
+    "precision_at_0_5": 0.5796497080900751,
+    "recall_at_0_5": 0.2736220472440945,
+    "f1_at_0_5": 0.3717571543193367,
+    "accuracy_at_0_5": 0.7148579752367079,
+    "confusion_matrix": {
+        "true_negative": 5194,
+        "false_positive": 504,
+        "false_negative": 1845,
+        "true_positive": 695
+    }
+}
